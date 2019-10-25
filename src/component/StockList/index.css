@@ -1,0 +1,14 @@
+.list-container{
+    flex:1;
+    background-color: blue;
+}
+
+.list-title{
+    display: block;
+}
+
+.list-item{
+    height:60px;
+    padding: 4px 8px;
+    background-color: darkcyan;
+}
