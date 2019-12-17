@@ -8,7 +8,7 @@ class TwentyPrice extends React.PureComponent {
     render() {
         return (<div className="container">
             <StockList/>
-            <StockPrice/>
+            {/*<StockPrice/>*/}
         </div>);
     }
 

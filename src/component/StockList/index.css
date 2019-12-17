@@ -1,14 +1,36 @@
-.list-container{
-    flex:1;
-    background-color: blue;
+.list-container {
+    /*flex: 1;*/
+    /*background-color: #20232a;*/
+    background-color: white;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    display: flex;
 }
 
-.list-title{
-    display: block;
+
+
+.list-title {
+    /*display: block;*/
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
 }
 
-.list-item{
-    height:60px;
+.list-item {
+    display: inline-block;
+    min-width:200px;
+    text-align: left;
     padding: 4px 8px;
-    background-color: darkcyan;
+    margin-bottom: 16px;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price-item {
+    line-height: 38px;
+    display: inline-block;
+    font-size: 18px;
+    border-bottom: #282c34 solid 1px;
 }
