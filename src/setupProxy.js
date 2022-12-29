@@ -4,7 +4,10 @@ module.exports = function(app) {
     app.use(
         createProxyMiddleware ("/list", {
             target: "http://hq.sinajs.cn/list/",
-            changeOrigin: true
+            changeOrigin: true,
+         headers:{
+         "referer":"https://finance.sina.com.cn/"
+         }
         })
     );
 
